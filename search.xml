@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>数据采集</title>
-    <url>/2024/05/16/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86/</url>
-    <content><![CDATA[<p><strong>MQTT</strong></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mqtt1.jpg"
-                     
-                ></p>
-<p><strong>Broker安装</strong></p>
-<p>1、系统安装，参考Ubuntu22-Server安装文档</p>
-<p>2、<a class="button  center large" href='https://docs.docker.com/engine/install/ubuntu/' title='Docker安装官方教程'><i class='fa-solid fa-book'></i> Docker安装官方教程</a></p>
-<p>3、在命令行工具中输入如下命令，下载并运行最新版 EMQX。</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx:latest</span><br></pre></td></tr></table></figure></div>
-
-<p>4、通过浏览器访问 <a class="link"   href="http://localhost:18083/%EF%BC%88localhost" >http://localhost:18083/（localhost <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 可替换为您的实际 IP 地址）以访问 <a class="link"   href="https://www.emqx.io/docs/zh/v5.6/dashboard/introduction.html" >EMQX Dashboard <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 管理控制台，进行设备连接与相关指标监控管理。</p>
-<p> 默认用户名及密码：</p>
- <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">public</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mqtt2.jpg"
-                     
-                ></p>
-]]></content>
-  </entry>
-  <entry>
     <title>写作</title>
-    <url>/2024/05/16/%E5%86%99%E4%BD%9C/</url>
+    <url>/2024/05/16/%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="安装虚拟机"><a href="#安装虚拟机" class="headerlink" title="安装虚拟机"></a>安装虚拟机</h1><a class="button  center large" href='https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player' title='虚拟机'><i class='fa-solid fa-download'></i> 虚拟机</a>
 
 <h1 id="安装mx"><a href="#安装mx" class="headerlink" title="安装mx"></a>安装mx</h1><a class="button  center large" href='https://mirrors.aliyun.com/mxlinux-iso/MX/Snapshots/' title='mxlinux'><i class='fa-solid fa-download'></i> mxlinux</a>
@@ -178,8 +148,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>助理</title>
-    <url>/2024/05/16/%E5%8A%A9%E7%90%86/</url>
+    <title>论文</title>
+    <url>/2024/05/16/%E8%AE%BA%E6%96%871/</url>
     <content><![CDATA[<h1 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h1><a class="button  center large" href='https://cn.ubuntu.com/download/server/step1#architectures' title='Ubuntu22-server'><i class='fa-solid fa-download'></i> Ubuntu22-server</a>
 
 <p>安装好后完成如下步骤：</p>
@@ -305,71 +275,33 @@
 ]]></content>
   </entry>
   <entry>
-    <title>理解</title>
-    <url>/2024/05/16/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86/</url>
-    <content><![CDATA[<p><strong>积分</strong></p>
+    <title>论文</title>
+    <url>/2024/05/16/%E8%AE%BA%E6%96%872/</url>
+    <content><![CDATA[<p><strong>MQTT</strong></p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/math/4.jpg"
+                     data-src="/images/mqtt1.jpg"
                      
                 ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/3.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/2.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/1.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/5.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/6.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/7.jpg"
-                     
-                ></p>
-<p><strong>二极管</strong></p>
-<p>单晶硅具有稳定的结构。P区：掺杂了3价硼元素在单晶硅中。N区：掺杂了5价磷元素在单晶硅中。P区和N区在同一硅晶体中。</p>
+<p><strong>Broker安装</strong></p>
+<p>1、系统安装，参考Ubuntu22-Server安装文档</p>
+<p>2、<a class="button  center large" href='https://docs.docker.com/engine/install/ubuntu/' title='Docker安装官方教程'><i class='fa-solid fa-book'></i> Docker安装官方教程</a></p>
+<p>3、在命令行工具中输入如下命令，下载并运行最新版 EMQX。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx:latest</span><br></pre></td></tr></table></figure></div>
 
-  <div class="note p-4 mb-4 rounded-small info blue">
-    <p>PN结：类似于单晶硅的结构，不同的是在该结构里存在扩散、漂移运动；又称耗尽层，载流子少。</p>
+<p>4、通过浏览器访问 <a class="link"   href="http://localhost:18083/%EF%BC%88localhost" >http://localhost:18083/（localhost <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 可替换为您的实际 IP 地址）以访问 <a class="link"   href="https://www.emqx.io/docs/zh/v5.6/dashboard/introduction.html" >EMQX Dashboard <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 管理控制台，进行设备连接与相关指标监控管理。</p>
+<p> 默认用户名及密码：</p>
+ <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin</span><br></pre></td></tr></table></figure></div>
 
-  </div>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">public</span><br></pre></td></tr></table></figure></div>
 
-<div class="tabs" id="tab-pn结运动"><ul class="nav-tabs"><li class="tab active"><a class="#pn结运动-1">扩散运动</a></li><li class="tab"><a class="#pn结运动-2">漂移运动</a></li></ul><div class="tab-content"><div class="tab-pane active" id="pn结运动-1"><p>N区多的电子扩散到电子少的P区。</p></div><div class="tab-pane" id="pn结运动-2"><p>扩散运动会增强PN结内电场的强度，在内电场（硼、磷元素）中会有少数电子再从P区漂移到N区。</p></div></div></div>
-
-<div class="tabs" id="tab-pn结三种情况"><ul class="nav-tabs"><li class="tab active"><a class="#pn结三种情况-1">正向通路</a></li><li class="tab"><a class="#pn结三种情况-2">反向截至</a></li><li class="tab"><a class="#pn结三种情况-3">反向通路\断路</a></li></ul><div class="tab-content"><div class="tab-pane active" id="pn结三种情况-1"><p>通过电源的作用，增强扩散运动。晶体两端电压达到0.3伏时，二极管通路。</p></div><div class="tab-pane" id="pn结三种情况-2"><p>通过电源的作用，增强漂移运动，减少扩散运动，PN结越大。</p></div><div class="tab-pane" id="pn结三种情况-3"><p>当电源加强漂移运动越强时，漂移的电子会把共价键中的电子撞出，这样电子会越多，达到通路的状态。当电流增大到阈值时会损坏晶体管引起断路。</p></div></div></div>
-
-<p><strong>电荷量</strong>：符号Q，Quantity首字母；单位C，Coulomb。</p>
-<p><strong>电压</strong>：符号是U，德语Unterschied（差异、电势差E&#x2F;Q）首字母；单位V，Volta。</p>
-<p><strong>电流</strong>：符号I，Intensity Of Electron Flow（Current、Q&#x2F;t）首字母；单位A，Ampere。</p>
-<p><strong>电功</strong>：符号W，Work首字母；单位J，Joule。</p>
-<p><strong>电功率</strong>：符号P，Power首字母；单位W，Watt。</p>
-<p><strong>电阻</strong>：符号R，Resistance首字母；单位Ω，Ohm。</p>
-<p><strong>电容</strong>：符号C，Capacitance首字母；单位F，Farad。</p>
-<p><strong>电感</strong>：符号L，Lenz（Inductor首字母表示电流）；单位H，Henry。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/mqtt2.jpg"
+                     
+                ></p>
 ]]></content>
   </entry>
 </search>
