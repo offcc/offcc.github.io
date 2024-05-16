@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>搭博客</title>
+    <title>写作</title>
     <url>/2024/05/16/%E6%90%AD%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="安装虚拟机"><a href="#安装虚拟机" class="headerlink" title="安装虚拟机"></a>安装虚拟机</h1><a class="button  center large" href='https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player' title='虚拟机'><i class='fa-solid fa-download'></i> 虚拟机</a>
 
@@ -117,155 +117,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>理解</title>
-    <url>/2024/05/16/%E7%89%A9%E7%90%86%E6%95%B0%E5%AD%A6/</url>
-    <content><![CDATA[<h1 id="积分"><a href="#积分" class="headerlink" title="积分"></a>积分</h1><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/4.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/3.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/2.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/1.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/5.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/6.jpg"
-                     
-                ></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/math/7.jpg"
-                     
-                ></p>
-<h1 id="电路"><a href="#电路" class="headerlink" title="电路"></a>电路</h1><p><strong>二极管</strong></p>
-<p>单晶硅具有稳定的结构。P区：掺杂了3价硼元素在单晶硅中。N区：掺杂了5价磷元素在单晶硅中。P区和N区在同一硅晶体中。</p>
-
-  <div class="note p-4 mb-4 rounded-small info blue">
-    <p>PN结：类似于单晶硅的结构，不同的是在该结构里存在扩散、漂移运动；又称耗尽层，载流子少。</p>
-
-  </div>
-
-<div class="tabs" id="tab-pn结运动"><ul class="nav-tabs"><li class="tab active"><a class="#pn结运动-1">扩散运动</a></li><li class="tab"><a class="#pn结运动-2">漂移运动</a></li></ul><div class="tab-content"><div class="tab-pane active" id="pn结运动-1"><p>N区多的电子扩散到电子少的P区。</p></div><div class="tab-pane" id="pn结运动-2"><p>扩散运动会增强PN结内电场的强度，在内电场（硼、磷元素）中会有少数电子再从P区漂移到N区。</p></div></div></div>
-
-<div class="tabs" id="tab-pn结三种情况"><ul class="nav-tabs"><li class="tab active"><a class="#pn结三种情况-1">正向通路</a></li><li class="tab"><a class="#pn结三种情况-2">反向截至</a></li><li class="tab"><a class="#pn结三种情况-3">反向通路\断路</a></li></ul><div class="tab-content"><div class="tab-pane active" id="pn结三种情况-1"><p>通过电源的作用，增强扩散运动。晶体两端电压达到0.3伏时，二极管通路。</p></div><div class="tab-pane" id="pn结三种情况-2"><p>通过电源的作用，增强漂移运动，减少扩散运动，PN结越大。</p></div><div class="tab-pane" id="pn结三种情况-3"><p>当电源加强漂移运动越强时，漂移的电子会把共价键中的电子撞出，这样电子会越多，达到通路的状态。当电流增大到阈值时会损坏晶体管引起断路。</p></div></div></div>
-
-<p><strong>电荷量</strong>：符号Q，Quantity首字母；单位C，Coulomb。</p>
-<p><strong>电压</strong>：符号是U，德语Unterschied（差异、电势差E&#x2F;Q）首字母；单位V，Volta。</p>
-<p><strong>电流</strong>：符号I，Intensity Of Electron Flow（Current、Q&#x2F;t）首字母；单位A，Ampere。</p>
-<p><strong>电功</strong>：符号W，Work首字母；单位J，Joule。</p>
-<p><strong>电功率</strong>：符号P，Power首字母；单位W，Watt。</p>
-<p><strong>电阻</strong>：符号R，Resistance首字母；单位Ω，Ohm。</p>
-<p><strong>电容</strong>：符号C，Capacitance首字母；单位F，Farad。</p>
-<p><strong>电感</strong>：符号L，Lenz（Inductor首字母表示电流）；单位H，Henry。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>系统</title>
-    <url>/2024/05/16/%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="Windows安装"><a href="#Windows安装" class="headerlink" title="Windows安装"></a>Windows安装</h1><a class="button  center large" href='https://www.wepe.com.cn/' title='WindowsPE'><i class='fa-solid fa-download'></i> WindowsPE</a>
-
-<p>准备一块U盘，将PE软件安装到该U盘。PE：Preinstallation Environment，预下载环境。</p>
-<a class="button  center large" href='https://www.microsoft.com/zh-cn/software-download/windows11/' title='Windows'><i class='fa-solid fa-download'></i> Windows</a>
-
-<p><strong>镜像文件</strong>：镜子里的像。</p>
-
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>在Win11上打开CMD，顺序输入命令激活</p>
-
-    </div>
-    <div class="notel-content">
-      <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ckms</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX </span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /skms kms.03k.org</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ato</span><br></pre></td></tr></table></figure></div>
-
-    </div>
-  </div>
-
-<a class="button  center large" href='https://www.bilibili.com/video/BV1DJ411D79y' title='茶谈'><i class='fa-solid fa-video'></i> 茶谈</a>
-
-<h1 id="写作软件安装"><a href="#写作软件安装" class="headerlink" title="写作软件安装"></a>写作软件安装</h1><a class="button  center large" href='https://liudank.lanzouh.com/igOef02uajuh' title='Typora软件密码184w'><i class='fa-solid fa-download'></i> Typora软件密码184w</a>
-
-<h1 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h1><p>轻薄本+键盘膜+充电器；</p>
-<p>金属U盘：散热性良；</p>
-<p>U盘+PE软件：安装Windows；</p>
-<p>U盘+Rufus、BalenaEtcher：安装Liunux。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>网络</title>
-    <url>/2024/05/16/%E7%BD%91%E7%BB%9C/</url>
-    <content><![CDATA[<h1 id="MQTT"><a href="#MQTT" class="headerlink" title="MQTT"></a>MQTT</h1><p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mqtt1.jpg"
-                     
-                ></p>
-<p><strong>Broker安装</strong></p>
-<p>1、系统安装，参考Ubuntu22-Server安装文档</p>
-<p>2、<a class="button  center large" href='https://docs.docker.com/engine/install/ubuntu/' title='Docker安装官方教程'><i class='fa-solid fa-book'></i> Docker安装官方教程</a></p>
-<p>3、在命令行工具中输入如下命令，下载并运行最新版 EMQX。</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx:latest</span><br></pre></td></tr></table></figure></div>
-
-<p>4、通过浏览器访问 <a class="link"   href="http://localhost:18083/%EF%BC%88localhost" >http://localhost:18083/（localhost <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 可替换为您的实际 IP 地址）以访问 <a class="link"   href="https://www.emqx.io/docs/zh/v5.6/dashboard/introduction.html" >EMQX Dashboard <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 管理控制台，进行设备连接与相关指标监控管理。</p>
-<p> 默认用户名及密码：</p>
- <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">public</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mqtt2.jpg"
-                     
-                ></p>
-<h1 id="T568B"><a href="#T568B" class="headerlink" title="T568B"></a>T568B</h1><p>橙白、橙、绿白、蓝、蓝白、绿、棕白、棕。</p>
-<h1 id="Zigbee"><a href="#Zigbee" class="headerlink" title="Zigbee"></a>Zigbee</h1><p>短距离、低功耗、低时延、从睡眠状态到工作状态，仅需15ms，加入到网络中仅需30ms。</p>
-<h1 id="UART"><a href="#UART" class="headerlink" title="UART"></a>UART</h1><p>Universal Asynchronous Receiver-Transmitter, 通用异步收发器，两个设备间有线通信。</p>
-<p>数据的传输速率用波特率表示（bps &#x3D; bit per second），一般波特率有9600,19200,115200等选项。</p>
-<p><strong>电平标准</strong>是传输线缆中规定的电压与数据的对应关系。串口电平标准通常有如下三种： </p>
-<p><strong>RS485</strong></p>
-<p>差分信号传输；</p>
-<p>A和B表示两根绞线（抗干扰性能良，通信距离较远）上的电压；</p>
-<p>A大于B时，数据1；</p>
-<p>B大于A时，数据0；</p>
-<p><strong>RS232</strong></p>
-<p>允许电压范围相对较大；</p>
-<p>高电平数据1的电压范围：[3,15]；</p>
-<p>低电平数据0的电压范围：[-15,-3]； </p>
-<p><strong>TTL</strong></p>
-<p>Transistor-Transistor Logic，电路电平。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>软件</title>
     <url>/2024/05/16/%E8%BD%AF%E4%BB%B6/</url>
     <content><![CDATA[<h1 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h1><a class="button  center large" href='https://cn.ubuntu.com/download/server/step1#architectures' title='Ubuntu22-server'><i class='fa-solid fa-download'></i> Ubuntu22-server</a>
@@ -370,8 +221,157 @@
 
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">type: picture-elements</span><br><span class="line">image: /local/all-off.png</span><br><span class="line">elements:</span><br><span class="line">//---------------------------------------------------卧室灯-------------------------------------------------</span><br><span class="line">  - type: image</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_7</span><br><span class="line">    tap_action:</span><br><span class="line">      action: none</span><br><span class="line">    style:</span><br><span class="line">      pointer-events: none</span><br><span class="line">      top: 50%</span><br><span class="line">      left: 50%</span><br><span class="line">      width: 100%</span><br><span class="line">      mix-blend-mode: lighten</span><br><span class="line">    state_image:</span><br><span class="line">      &#x27;on&#x27;: /local/nbdrm-on.png</span><br><span class="line">      &#x27;off&#x27;: /local/all-off.png</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_7</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 85%</span><br><span class="line">      left: 48%</span><br><span class="line">    icon: mdi:light-recessed</span><br><span class="line">//---------------------------------------------------卧室灯-------------------------------------------------</span><br><span class="line"></span><br><span class="line">//---------------------------------------------------客厅灯6-------------------------------------------------</span><br><span class="line">  - type: image</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_5</span><br><span class="line">    tap_action:</span><br><span class="line">      action: none</span><br><span class="line">    style:</span><br><span class="line">      pointer-events: none</span><br><span class="line">      top: 50%</span><br><span class="line">      left: 50%</span><br><span class="line">      width: 100%</span><br><span class="line">      mix-blend-mode: lighten</span><br><span class="line">    state_image:</span><br><span class="line">      &#x27;on&#x27;: /local/lvngrm1-on.png</span><br><span class="line">      &#x27;off&#x27;: /local/all-off.png</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_5</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 60%</span><br><span class="line">      left: 54%</span><br><span class="line">    icon: mdi:lightbulb-fluorescent-tube</span><br><span class="line">//---------------------------------------------------客厅灯6-------------------------------------------------</span><br><span class="line"></span><br><span class="line">//---------------------------------------------------客厅灯5-------------------------------------------------</span><br><span class="line">  - type: image</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light</span><br><span class="line">    tap_action:</span><br><span class="line">      action: none</span><br><span class="line">    style:</span><br><span class="line">      pointer-events: none</span><br><span class="line">      top: 50%</span><br><span class="line">      left: 50%</span><br><span class="line">      width: 100%</span><br><span class="line">      mix-blend-mode: lighten</span><br><span class="line">    state_image:</span><br><span class="line">      &#x27;on&#x27;: /local/lvngrm-on.png</span><br><span class="line">      &#x27;off&#x27;: /local/all-off.png</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 60%</span><br><span class="line">      left: 44%</span><br><span class="line">    icon: mdi:light-recessed</span><br><span class="line">//---------------------------------------------------客厅灯5-------------------------------------------------</span><br><span class="line"></span><br><span class="line">//---------------------------------------------------衣室灯-------------------------------------------------</span><br><span class="line">  - type: image</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_2</span><br><span class="line">    tap_action:</span><br><span class="line">      action: none</span><br><span class="line">    style:</span><br><span class="line">      pointer-events: none</span><br><span class="line">      top: 50%</span><br><span class="line">      left: 50%</span><br><span class="line">      width: 100%</span><br><span class="line">      mix-blend-mode: lighten</span><br><span class="line">    state_image:</span><br><span class="line">      &#x27;on&#x27;: /local/sbdrm-on.png</span><br><span class="line">      &#x27;off&#x27;: /local/all-off.png</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_2</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 34%</span><br><span class="line">      left: 29%</span><br><span class="line">    icon: mdi:light-recessed</span><br><span class="line">//---------------------------------------------------衣室灯-------------------------------------------------</span><br><span class="line"></span><br><span class="line">//---------------------------------------------------储物灯-------------------------------------------------</span><br><span class="line">  - type: image</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_8</span><br><span class="line">    tap_action:</span><br><span class="line">      action: none</span><br><span class="line">    style:</span><br><span class="line">      pointer-events: none</span><br><span class="line">      top: 50%</span><br><span class="line">      left: 50%</span><br><span class="line">      width: 100%</span><br><span class="line">      mix-blend-mode: lighten</span><br><span class="line">    state_image:</span><br><span class="line">      &#x27;on&#x27;: /local/bkrm-on.png</span><br><span class="line">      &#x27;off&#x27;: /local/all-off.png</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_8</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 34%</span><br><span class="line">      left: 51%</span><br><span class="line">    icon: mdi:light-recessed</span><br><span class="line">//---------------------------------------------------储物灯-------------------------------------------------</span><br><span class="line"></span><br><span class="line">//---------------------------------------------------酒房灯-------------------------------------------------</span><br><span class="line">  - type: image</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_6</span><br><span class="line">    tap_action:</span><br><span class="line">      action: none</span><br><span class="line">    style:</span><br><span class="line">      pointer-events: none</span><br><span class="line">      top: 50%</span><br><span class="line">      left: 50%</span><br><span class="line">      width: 100%</span><br><span class="line">      mix-blend-mode: lighten</span><br><span class="line">    state_image:</span><br><span class="line">      &#x27;on&#x27;: /local/wnrm-on.png</span><br><span class="line">      &#x27;off&#x27;: /local/all-off.png</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_6</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 34%</span><br><span class="line">      left: 71%</span><br><span class="line">    icon: mdi:light-recessed</span><br><span class="line">//---------------------------------------------------酒房灯-------------------------------------------------</span><br><span class="line"></span><br><span class="line">//---------------------------------------------------卧室小灯------------------------------------------------</span><br><span class="line">  - type: image</span><br><span class="line">    entity: light.tz3210_it1u8ahz_ts0505b_light</span><br><span class="line">    tap_action:</span><br><span class="line">      action: none</span><br><span class="line">    style:</span><br><span class="line">      pointer-events: none</span><br><span class="line">      top: 50%</span><br><span class="line">      left: 50%</span><br><span class="line">      width: 100%</span><br><span class="line">      mix-blend-mode: lighten</span><br><span class="line">    state_image:</span><br><span class="line">      &#x27;on&#x27;: /local/nbdrm1-on.png</span><br><span class="line">      &#x27;off&#x27;: /local/all-off.png</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3210_it1u8ahz_ts0505b_light</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 78%</span><br><span class="line">      left: 49%</span><br><span class="line">    icon: mdi:globe-light</span><br><span class="line">//---------------------------------------------------卧室小灯------------------------------------------------</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_tqlv4ug4_ts0001_light_3</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 73%</span><br><span class="line">      left: 75%</span><br><span class="line">    icon: mdi:light-recessed</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_cfnprab5_ts011f_light</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 12%</span><br><span class="line">      left: 8%</span><br><span class="line">    icon: mdi:cellphone-charging</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_cfnprab5_ts011f_light_2</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 32%</span><br><span class="line">      left: 8%</span><br><span class="line">    icon: mdi:power-socket-jp</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_cfnprab5_ts011f_light_3</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 52%</span><br><span class="line">      left: 8%</span><br><span class="line">    icon: mdi:power-socket-jp</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_cfnprab5_ts011f_light_4</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 72%</span><br><span class="line">      left: 8%</span><br><span class="line">    icon: mdi:power-socket-jp</span><br><span class="line">  - type: state-icon</span><br><span class="line">    entity: light.tz3000_cfnprab5_ts011f_light_5</span><br><span class="line">    tap_action:</span><br><span class="line">      action: toggle</span><br><span class="line">    style:</span><br><span class="line">      top: 92%</span><br><span class="line">      left: 8%</span><br><span class="line">    icon: mdi:lightbulb-on-90</span><br></pre></td></tr></table></figure></div>
 
+<hr>
+<h1 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h1><p><strong>T568B</strong></p>
+<p>橙白、橙、绿白、蓝、蓝白、绿、棕白、棕。</p>
+<p><strong>Zigbee</strong></p>
+<p>短距离、低功耗、低时延、从睡眠状态到工作状态，仅需15ms，加入到网络中仅需30ms。</p>
+<p><strong>UART</strong></p>
+<p>Universal Asynchronous Receiver-Transmitter, 通用异步收发器，两个设备间有线通信。</p>
+<p>数据的传输速率用波特率表示（bps &#x3D; bit per second），一般波特率有9600,19200,115200等选项。</p>
+<p><strong>电平标准</strong>是传输线缆中规定的电压与数据的对应关系。串口电平标准通常有如下三种： </p>
+<p><strong>RS485</strong></p>
+<p>差分信号传输；</p>
+<p>A和B表示两根绞线（抗干扰性能良，通信距离较远）上的电压；</p>
+<p>A大于B时，数据1；</p>
+<p>B大于A时，数据0；</p>
+<p><strong>RS232</strong></p>
+<p>允许电压范围相对较大；</p>
+<p>高电平数据1的电压范围：[3,15]；</p>
+<p>低电平数据0的电压范围：[-15,-3]； </p>
+<p><strong>TTL</strong></p>
+<p>Transistor-Transistor Logic，电路电平。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>系统</title>
+    <url>/2024/05/16/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<h1 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h1><a class="button  center large" href='https://www.wepe.com.cn/' title='WindowsPE'><i class='fa-solid fa-download'></i> WindowsPE</a>
 
+<p>准备一块U盘，将PE软件安装到该U盘。PE：Preinstallation Environment，预下载环境。</p>
+<a class="button  center large" href='https://www.microsoft.com/zh-cn/software-download/windows11/' title='Windows'><i class='fa-solid fa-download'></i> Windows</a>
 
+<p><strong>镜像文件</strong>：镜子里的像。</p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>在Win11上打开cmd，顺序输入命令激活</p>
+
+    </div>
+    <div class="notel-content">
+      <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ckms</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX </span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /skms kms.03k.org</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ato</span><br></pre></td></tr></table></figure></div>
+
+    </div>
+  </div>
+
+<a class="button  center large" href='https://www.bilibili.com/video/BV1DJ411D79y' title='茶谈'><i class='fa-solid fa-video'></i> 茶谈</a>
+
+<h1 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h1><a class="button  center large" href='https://liudank.lanzouh.com/igOef02uajuh' title='Typora软件密码184w'><i class='fa-solid fa-download'></i> Typora软件密码184w</a>
+
+<p><strong>工具</strong></p>
+<p>轻薄本+键盘膜+充电器；</p>
+<p>金属U盘：散热性良；</p>
+<p>U盘+PE软件：安装Windows；</p>
+<p>U盘+Rufus、BalenaEtcher：安装Liunux。</p>
+<p><strong>积分</strong></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/math/4.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/math/3.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/math/2.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/math/1.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/math/5.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/math/6.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/math/7.jpg"
+                     
+                ></p>
+<p><strong>二极管</strong></p>
+<p>单晶硅具有稳定的结构。P区：掺杂了3价硼元素在单晶硅中。N区：掺杂了5价磷元素在单晶硅中。P区和N区在同一硅晶体中。</p>
+
+  <div class="note p-4 mb-4 rounded-small info blue">
+    <p>PN结：类似于单晶硅的结构，不同的是在该结构里存在扩散、漂移运动；又称耗尽层，载流子少。</p>
+
+  </div>
+
+<div class="tabs" id="tab-pn结运动"><ul class="nav-tabs"><li class="tab active"><a class="#pn结运动-1">扩散运动</a></li><li class="tab"><a class="#pn结运动-2">漂移运动</a></li></ul><div class="tab-content"><div class="tab-pane active" id="pn结运动-1"><p>N区多的电子扩散到电子少的P区。</p></div><div class="tab-pane" id="pn结运动-2"><p>扩散运动会增强PN结内电场的强度，在内电场（硼、磷元素）中会有少数电子再从P区漂移到N区。</p></div></div></div>
+
+<div class="tabs" id="tab-pn结三种情况"><ul class="nav-tabs"><li class="tab active"><a class="#pn结三种情况-1">正向通路</a></li><li class="tab"><a class="#pn结三种情况-2">反向截至</a></li><li class="tab"><a class="#pn结三种情况-3">反向通路\断路</a></li></ul><div class="tab-content"><div class="tab-pane active" id="pn结三种情况-1"><p>通过电源的作用，增强扩散运动。晶体两端电压达到0.3伏时，二极管通路。</p></div><div class="tab-pane" id="pn结三种情况-2"><p>通过电源的作用，增强漂移运动，减少扩散运动，PN结越大。</p></div><div class="tab-pane" id="pn结三种情况-3"><p>当电源加强漂移运动越强时，漂移的电子会把共价键中的电子撞出，这样电子会越多，达到通路的状态。当电流增大到阈值时会损坏晶体管引起断路。</p></div></div></div>
+
+<p><strong>电荷量</strong>：符号Q，Quantity首字母；单位C，Coulomb。</p>
+<p><strong>电压</strong>：符号是U，德语Unterschied（差异、电势差E&#x2F;Q）首字母；单位V，Volta。</p>
+<p><strong>电流</strong>：符号I，Intensity Of Electron Flow（Current、Q&#x2F;t）首字母；单位A，Ampere。</p>
+<p><strong>电功</strong>：符号W，Work首字母；单位J，Joule。</p>
+<p><strong>电功率</strong>：符号P，Power首字母；单位W，Watt。</p>
+<p><strong>电阻</strong>：符号R，Resistance首字母；单位Ω，Ohm。</p>
+<p><strong>电容</strong>：符号C，Capacitance首字母；单位F，Farad。</p>
+<p><strong>电感</strong>：符号L，Lenz（Inductor首字母表示电流）；单位H，Henry。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>数据采集</title>
+    <url>/2024/05/16/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86/</url>
+    <content><![CDATA[<p><strong>MQTT</strong></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/mqtt1.jpg"
+                     
+                ></p>
+<p><strong>Broker安装</strong></p>
+<p>1、系统安装，参考Ubuntu22-Server安装文档</p>
+<p>2、<a class="button  center large" href='https://docs.docker.com/engine/install/ubuntu/' title='Docker安装官方教程'><i class='fa-solid fa-book'></i> Docker安装官方教程</a></p>
+<p>3、在命令行工具中输入如下命令，下载并运行最新版 EMQX。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx:latest</span><br></pre></td></tr></table></figure></div>
+
+<p>4、通过浏览器访问 <a class="link"   href="http://localhost:18083/%EF%BC%88localhost" >http://localhost:18083/（localhost <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 可替换为您的实际 IP 地址）以访问 <a class="link"   href="https://www.emqx.io/docs/zh/v5.6/dashboard/introduction.html" >EMQX Dashboard <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 管理控制台，进行设备连接与相关指标监控管理。</p>
+<p> 默认用户名及密码：</p>
+ <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">public</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/mqtt2.jpg"
+                     
+                ></p>
 ]]></content>
   </entry>
 </search>
