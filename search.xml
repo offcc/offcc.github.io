@@ -105,14 +105,14 @@
 <p>mermaid流程组件</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i hexo-filter-mermaid-diagrams</span><br></pre></td></tr></table></figure></div>
 
-<h1 id="上传到Github"><a href="#上传到Github" class="headerlink" title="上传到Github"></a>上传到Github</h1><p>一个账户邮箱ssh一个github仓库(username.github.io)。</p>
+<h1 id="上传到github"><a href="#上传到github" class="headerlink" title="上传到github"></a>上传到github</h1><p>一个账户邮箱ssh一个github仓库(username.github.io)。</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;Github邮箱&quot;</span><br></pre></td></tr></table></figure></div>
 
 <p>拿着public的密钥到github里粘贴一下就行了。</p>
 <p>根目录下的_config.yml文件配置</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: main</span><br><span class="line">theme: redefine</span><br></pre></td></tr></table></figure></div>
 
-<h1 id="安装Windows"><a href="#安装Windows" class="headerlink" title="安装Windows"></a>安装Windows</h1><a class="button  center large" href='https://www.wepe.com.cn/' title='WindowsPE'><i class='fa-solid fa-download'></i> WindowsPE</a>
+<h1 id="安装windows"><a href="#安装windows" class="headerlink" title="安装windows"></a>安装windows</h1><a class="button  center large" href='https://www.wepe.com.cn/' title='WindowsPE'><i class='fa-solid fa-download'></i> WindowsPE</a>
 
 <p>准备一块U盘，将PE软件安装到该U盘。PE：Preinstallation Environment，预下载环境。</p>
 <a class="button  center large" href='https://www.microsoft.com/zh-cn/software-download/windows11/' title='Windows'><i class='fa-solid fa-download'></i> Windows</a>
@@ -138,7 +138,7 @@
 
 <a class="button  center large" href='https://www.bilibili.com/video/BV1DJ411D79y' title='茶谈'><i class='fa-solid fa-video'></i> 茶谈</a>
 
-<h1 id="安装Typora"><a href="#安装Typora" class="headerlink" title="安装Typora"></a>安装Typora</h1><a class="button  center large" href='https://liudank.lanzouh.com/igOef02uajuh' title='Typora软件密码184w'><i class='fa-solid fa-download'></i> Typora软件密码184w</a>
+<h1 id="安装typora"><a href="#安装typora" class="headerlink" title="安装typora"></a>安装typora</h1><a class="button  center large" href='https://liudank.lanzouh.com/igOef02uajuh' title='Typora软件密码184w'><i class='fa-solid fa-download'></i> Typora软件密码184w</a>
 
 <p><strong>工具</strong></p>
 <p>轻薄本+键盘膜+充电器；</p>
