@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>数据采集</title>
+    <url>/2024/05/16/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86/</url>
+    <content><![CDATA[<p><strong>MQTT</strong></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/mqtt1.jpg"
+                     
+                ></p>
+<p><strong>Broker安装</strong></p>
+<p>1、系统安装，参考Ubuntu22-Server安装文档</p>
+<p>2、<a class="button  center large" href='https://docs.docker.com/engine/install/ubuntu/' title='Docker安装官方教程'><i class='fa-solid fa-book'></i> Docker安装官方教程</a></p>
+<p>3、在命令行工具中输入如下命令，下载并运行最新版 EMQX。</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx:latest</span><br></pre></td></tr></table></figure></div>
+
+<p>4、通过浏览器访问 <a class="link"   href="http://localhost:18083/%EF%BC%88localhost" >http://localhost:18083/（localhost <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 可替换为您的实际 IP 地址）以访问 <a class="link"   href="https://www.emqx.io/docs/zh/v5.6/dashboard/introduction.html" >EMQX Dashboard <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 管理控制台，进行设备连接与相关指标监控管理。</p>
+<p> 默认用户名及密码：</p>
+ <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">public</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/mqtt2.jpg"
+                     
+                ></p>
+]]></content>
+  </entry>
+  <entry>
     <title>写作</title>
-    <url>/2024/05/16/%E6%90%AD%E5%8D%9A%E5%AE%A2/</url>
+    <url>/2024/05/16/%E5%86%99%E4%BD%9C/</url>
     <content><![CDATA[<h1 id="安装虚拟机"><a href="#安装虚拟机" class="headerlink" title="安装虚拟机"></a>安装虚拟机</h1><a class="button  center large" href='https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player' title='虚拟机'><i class='fa-solid fa-download'></i> 虚拟机</a>
 
 <h1 id="安装mx"><a href="#安装mx" class="headerlink" title="安装mx"></a>安装mx</h1><a class="button  center large" href='https://mirrors.aliyun.com/mxlinux-iso/MX/Snapshots/' title='mxlinux'><i class='fa-solid fa-download'></i> mxlinux</a>
@@ -112,13 +142,44 @@
 <p>根目录下的_config.yml文件配置</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: main</span><br><span class="line">theme: redefine</span><br></pre></td></tr></table></figure></div>
 
+<h1 id="安装Windows"><a href="#安装Windows" class="headerlink" title="安装Windows"></a>安装Windows</h1><a class="button  center large" href='https://www.wepe.com.cn/' title='WindowsPE'><i class='fa-solid fa-download'></i> WindowsPE</a>
 
+<p>准备一块U盘，将PE软件安装到该U盘。PE：Preinstallation Environment，预下载环境。</p>
+<a class="button  center large" href='https://www.microsoft.com/zh-cn/software-download/windows11/' title='Windows'><i class='fa-solid fa-download'></i> Windows</a>
 
+<p><strong>镜像文件</strong>：镜子里的像。</p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>在Win11上打开cmd，顺序输入命令激活</p>
+
+    </div>
+    <div class="notel-content">
+      <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ckms</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX </span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /skms kms.03k.org</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ato</span><br></pre></td></tr></table></figure></div>
+
+    </div>
+  </div>
+
+<a class="button  center large" href='https://www.bilibili.com/video/BV1DJ411D79y' title='茶谈'><i class='fa-solid fa-video'></i> 茶谈</a>
+
+<h1 id="安装Typora"><a href="#安装Typora" class="headerlink" title="安装Typora"></a>安装Typora</h1><a class="button  center large" href='https://liudank.lanzouh.com/igOef02uajuh' title='Typora软件密码184w'><i class='fa-solid fa-download'></i> Typora软件密码184w</a>
+
+<p><strong>工具</strong></p>
+<p>轻薄本+键盘膜+充电器；</p>
+<p>金属U盘：散热性良；</p>
+<p>U盘+PE软件：安装Windows；</p>
+<p>U盘+Rufus、BalenaEtcher：安装Liunux。</p>
 ]]></content>
   </entry>
   <entry>
-    <title>软件</title>
-    <url>/2024/05/16/%E8%BD%AF%E4%BB%B6/</url>
+    <title>助理</title>
+    <url>/2024/05/16/%E5%8A%A9%E7%90%86/</url>
     <content><![CDATA[<h1 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h1><a class="button  center large" href='https://cn.ubuntu.com/download/server/step1#architectures' title='Ubuntu22-server'><i class='fa-solid fa-download'></i> Ubuntu22-server</a>
 
 <p>安装好后完成如下步骤：</p>
@@ -245,41 +306,8 @@
   </entry>
   <entry>
     <title>理解</title>
-    <url>/2024/05/16/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h1><a class="button  center large" href='https://www.wepe.com.cn/' title='WindowsPE'><i class='fa-solid fa-download'></i> WindowsPE</a>
-
-<p>准备一块U盘，将PE软件安装到该U盘。PE：Preinstallation Environment，预下载环境。</p>
-<a class="button  center large" href='https://www.microsoft.com/zh-cn/software-download/windows11/' title='Windows'><i class='fa-solid fa-download'></i> Windows</a>
-
-<p><strong>镜像文件</strong>：镜子里的像。</p>
-
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>在Win11上打开cmd，顺序输入命令激活</p>
-
-    </div>
-    <div class="notel-content">
-      <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ckms</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX </span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /skms kms.03k.org</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">slmgr /ato</span><br></pre></td></tr></table></figure></div>
-
-    </div>
-  </div>
-
-<a class="button  center large" href='https://www.bilibili.com/video/BV1DJ411D79y' title='茶谈'><i class='fa-solid fa-video'></i> 茶谈</a>
-
-<h1 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h1><a class="button  center large" href='https://liudank.lanzouh.com/igOef02uajuh' title='Typora软件密码184w'><i class='fa-solid fa-download'></i> Typora软件密码184w</a>
-
-<p><strong>工具</strong></p>
-<p>轻薄本+键盘膜+充电器；</p>
-<p>金属U盘：散热性良；</p>
-<p>U盘+PE软件：安装Windows；</p>
-<p>U盘+Rufus、BalenaEtcher：安装Liunux。</p>
-<p><strong>积分</strong></p>
+    <url>/2024/05/16/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86/</url>
+    <content><![CDATA[<p><strong>积分</strong></p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
@@ -342,36 +370,6 @@
 <p><strong>电阻</strong>：符号R，Resistance首字母；单位Ω，Ohm。</p>
 <p><strong>电容</strong>：符号C，Capacitance首字母；单位F，Farad。</p>
 <p><strong>电感</strong>：符号L，Lenz（Inductor首字母表示电流）；单位H，Henry。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>数据采集</title>
-    <url>/2024/05/16/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86/</url>
-    <content><![CDATA[<p><strong>MQTT</strong></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mqtt1.jpg"
-                     
-                ></p>
-<p><strong>Broker安装</strong></p>
-<p>1、系统安装，参考Ubuntu22-Server安装文档</p>
-<p>2、<a class="button  center large" href='https://docs.docker.com/engine/install/ubuntu/' title='Docker安装官方教程'><i class='fa-solid fa-book'></i> Docker安装官方教程</a></p>
-<p>3、在命令行工具中输入如下命令，下载并运行最新版 EMQX。</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx:latest</span><br></pre></td></tr></table></figure></div>
-
-<p>4、通过浏览器访问 <a class="link"   href="http://localhost:18083/%EF%BC%88localhost" >http://localhost:18083/（localhost <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 可替换为您的实际 IP 地址）以访问 <a class="link"   href="https://www.emqx.io/docs/zh/v5.6/dashboard/introduction.html" >EMQX Dashboard <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 管理控制台，进行设备连接与相关指标监控管理。</p>
-<p> 默认用户名及密码：</p>
- <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">public</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mqtt2.jpg"
-                     
-                ></p>
 ]]></content>
   </entry>
 </search>
