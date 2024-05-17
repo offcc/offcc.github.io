@@ -149,7 +149,7 @@
   </entry>
   <entry>
     <title>论文</title>
-    <url>/2024/05/16/%E8%AE%BA%E6%96%871/</url>
+    <url>/2024/05/16/%E8%AE%BA%E6%96%87/</url>
     <content><![CDATA[<h1 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h1><a class="button  center large" href='https://cn.ubuntu.com/download/server/step1#architectures' title='Ubuntu22-server'><i class='fa-solid fa-download'></i> Ubuntu22-server</a>
 
 <p>安装好后完成如下步骤：</p>
@@ -272,36 +272,6 @@
 <p>低电平数据0的电压范围：[-15,-3]； </p>
 <p><strong>TTL</strong></p>
 <p>Transistor-Transistor Logic，电路电平。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>论文</title>
-    <url>/2024/05/16/%E8%AE%BA%E6%96%872/</url>
-    <content><![CDATA[<p><strong>MQTT</strong></p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mqtt1.jpg"
-                     
-                ></p>
-<p><strong>Broker安装</strong></p>
-<p>1、系统安装，参考Ubuntu22-Server安装文档</p>
-<p>2、<a class="button  center large" href='https://docs.docker.com/engine/install/ubuntu/' title='Docker安装官方教程'><i class='fa-solid fa-book'></i> Docker安装官方教程</a></p>
-<p>3、在命令行工具中输入如下命令，下载并运行最新版 EMQX。</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083 emqx/emqx:latest</span><br></pre></td></tr></table></figure></div>
-
-<p>4、通过浏览器访问 <a class="link"   href="http://localhost:18083/%EF%BC%88localhost" >http://localhost:18083/（localhost <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 可替换为您的实际 IP 地址）以访问 <a class="link"   href="https://www.emqx.io/docs/zh/v5.6/dashboard/introduction.html" >EMQX Dashboard <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 管理控制台，进行设备连接与相关指标监控管理。</p>
-<p> 默认用户名及密码：</p>
- <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">admin</span><br></pre></td></tr></table></figure></div>
-
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">public</span><br></pre></td></tr></table></figure></div>
-
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/mqtt2.jpg"
-                     
-                ></p>
 ]]></content>
   </entry>
 </search>
