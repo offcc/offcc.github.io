@@ -211,7 +211,7 @@
 
 <h1 id="docker安装"><a href="#docker安装" class="headerlink" title="docker安装"></a>docker安装</h1><a class="button  center large" href='https://docs.docker.com/engine/install/ubuntu/' title='官方教程'><i class='fa-solid fa-book'></i> 官方教程</a>
 
-<h1 id="assistant安装"><a href="#assistant安装" class="headerlink" title="assistant安装"></a>assistant安装</h1><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --name homeassistant \</span><br><span class="line">  --privileged \</span><br><span class="line">  --restart=unless-stopped \</span><br><span class="line">  -e TZ=MY_TIME_ZONE \</span><br><span class="line">  -v /usr/ha:/config \</span><br><span class="line">  --network=host \</span><br><span class="line">  ghcr.nju.edu.cn/home-assistant/home-assistant:stable</span><br></pre></td></tr></table></figure></div>
+<h1 id="assistant安装"><a href="#assistant安装" class="headerlink" title="assistant安装"></a>assistant安装</h1><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --name homeassistant \</span><br><span class="line">  --privileged \</span><br><span class="line">  --restart=unless-stopped \</span><br><span class="line">  -e TZ=MY_TIME_ZONE \</span><br><span class="line">  -v /usr/assistant:/config \</span><br><span class="line">  --network=host \</span><br><span class="line">  ghcr.nju.edu.cn/home-assistant/home-assistant:stable</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>映射</strong></p>
 <p>让容器访问物理机设备：–privileged</p>
