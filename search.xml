@@ -148,7 +148,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>论文</title>
+    <title>Assistant安装文档</title>
     <url>/2024/05/16/%E8%AE%BA%E6%96%87/</url>
     <content><![CDATA[<h1 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h1><a class="button  center large" href='https://cn.ubuntu.com/download/server/step1#architectures' title='Ubuntu22-server'><i class='fa-solid fa-download'></i> Ubuntu22-server</a>
 
@@ -272,6 +272,30 @@
 <p>低电平数据0的电压范围：[-15,-3]； </p>
 <p><strong>TTL</strong></p>
 <p>Transistor-Transistor Logic，电路电平。</p>
+<h1 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/tools/%E7%BD%91%E7%BA%BF%E9%92%B3.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/tools/%E4%B8%87%E7%94%A8%E8%A1%A8.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/tools/%E6%A3%80%E6%B5%8B%E4%BB%AA.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/tools/%E5%89%A5%E7%BA%BF%E9%92%B3.jpg"
+                     
+                ></p>
 ]]></content>
   </entry>
 </search>
